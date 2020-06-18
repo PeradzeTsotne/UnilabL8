@@ -1,57 +1,161 @@
 <!DOCTYPE html>
 <html lang="en">
-
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style/reset.css">
-    <link rel="stylesheet" href="style/style.css">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style/reset.css" />
+    <link rel="stylesheet" href="style/style.css" />
     <title>Flex</title>
-</head>
+  </head>
 
-<body>
-    <header>
-        <div class="navbar ">
-            <nav class="navigation-bar flex-d">
-                <img src=" images/Logo.png" alt="logo" class="logo">
-                <ul class="flex-d">
-                    <li class="navbar-li">
-                        <a href="#">პროექტის შესახებ</a>
-                    </li>
-                    <li class="navbar-li">
-                        <a href="#">მოთხოვნები</a>
-                    </li>
-                    <li class="navbar-li">
-                        <a class="upper-txt" href="#">Explore</a>
-                    </li>
-                    <li class="navbar-li">
-                        <a href="#">შესვლა</a>
-                    </li>
-                    <li class="navbar-li">
-                        <a href="#"><i class="fas fa-search"></i></a>
-                    </li>
-                </ul>
-            </nav>
+  <body>
+    <div class="main-container">
+      <header>
+        <div class="navbar">
+          <nav class="navigation-bar flex-d">
+            <a href="#">
+              <img src=" images/Logo.png" alt="logo" class="logo"
+            /></a>
+            <ul class="navbar-ul flex-d">
+              <li class="navbar-li">
+                <a href="#">პროექტის შესახებ</a>
+              </li>
+              <li class="navbar-li">
+                <a href="#">მოთხოვნები</a>
+              </li>
+              <li class="navbar-li">
+                <a class="upper-txt" href="#">Explore</a>
+              </li>
+              <li class="navbar-li">
+                <a href="#">შესვლა</a>
+              </li>
+              <li class="navbar-li">
+                <a href="#"><i class="fas fa-search"></i></a>
+              </li>
+            </ul>
+          </nav>
         </div>
-    </header>
-    <div class="img-header">
-        <img src="images/Header.png" alt="headerpic">
-        <div class="text-box">
-            <div class="info-text">
-                <h3>სტატიის დასახელება შეიძლება
-                    ასეთი სახით დაიწეროს</h3>
-                <p>ხოლო სტატიის მოკლე აღწერა რომელიც სრულად
-                    არ იქნება ნაჩვენები აქ </p>
+      </header>
+      <div class="img-header flex-d">
+        <div class="text-box flex-d">
+          <div class="title">
+            <h3>სტატიის დასახელება შეიძლება ასეთი სახით დაიწეროს</h3>
+          </div>
+          <div class="par">
+            <p>
+              ხოლო სტატიის მოკლე აღწერა რომელიც სრულად არ იქნება ნაჩვენები აქ
+            </p>
+          </div>
+          <div class="readmore-h">
+            <i class="fas fa-long-arrow-alt-right left-v"></i>
+            <a class="readm" href="#">Read More</a>
+          </div>
+        </div>
+      </div>
+      <!-- ===================Section======================= -->
+      <section class="3boxes">
+        <div class="container-box">
+          <h1>პოპულარული საიტები</h1>
+          <div class="box-wrapper flex-d">
+            <div class="box-section flex-d">
+              <div class="parentbox">
+                <img src="images/Slider.png" alt="musiclover" />
+                <h2>სტატიის სათაური</h2>
+                <p>
+                  ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ
+                  სტატიის მოკლე აღწერას
+                </p>
+              </div>
+              <a href="#" class="readmore-sect">more</a>
             </div>
-
+            <div class="box-section flex-d">
+              <div class="parentbox flex-d">
+                <img src="images/Slider2.png" alt="musiclover" />
+                <h2>სტატიის სათაური</h2>
+                <p>
+                  ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ
+                  სტატიის მოკლე აღწერას
+                </p>
+              </div>
+              <a href="#" class="readmore-sect">more</a>
+            </div>
+            <div class="box-section flex-d">
+              <div class="parentbox flex-d">
+                <img src="images/Slider3.png" alt="musiclover" />
+                <h2>სტატიის სათაური</h2>
+                <p>
+                  ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ
+                  სტატიის მოკლე აღწერას
+                </p>
+              </div>
+              <a href="#" class="readmore-sect">more</a>
+            </div>
+          </div>
         </div>
+      </section>
+      <div class="loadmore">Load More</div>
+      <section class="3boxes">
+        <div class="container-box">
+          <h1>ბოლოს დამატებული</h1>
+          <div class="box-wrapper flex-d">
+            <div class="box-section flex-d">
+              <div class="parentbox">
+                <img src="images/Sldier4.png" alt="musiclover" />
+                <h2>სტატიის სათაური</h2>
+                <p>
+                  ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ
+                  სტატიის მოკლე აღწერას
+                </p>
+              </div>
+              <a href="#" class="readmore-sect">more</a>
+            </div>
+            <div class="box-section flex-d">
+              <div class="parentbox flex-d">
+                <img src="images/Slider5.png" alt="musiclover" />
+                <h2>სტატიის სათაური</h2>
+                <p>
+                  ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ
+                  სტატიის მოკლე აღწერას
+                </p>
+              </div>
+              <a href="#" class="readmore-sect">more</a>
+            </div>
+            <div class="box-section flex-d">
+              <div class="parentbox flex-d">
+                <img src="images/Slider6.png" alt="musiclover" />
+                <h2>სტატიის სათაური</h2>
+                <p>
+                  ამ სტატიასაც სჭირდება აღწერა, ამიტომ ეს ველი დაეთმობა ამ
+                  სტატიის მოკლე აღწერას
+                </p>
+              </div>
+              <a href="#" class="readmore-sect">more</a>
+            </div>
+          </div>
+        </div>
+      </section>
     </div>
-    <section>
-        <div class="sect-container">
-
+    <footer>
+      <div class="footer-box">
+        <div class="footer-wrapper">
+          <img src="images/Group 3.png" alt="logo" />
+          <div class="contact">
+            <h3>კონტაქტი</h3>
+            <p>+995 0322 38 08 02</p>
+            <p>info@lucapolare.com</p>
+          </div>
+          <div class="address">
+            <h3>მისამართი</h3>
+            <p>მერაბ ალექსიძის ქუჩა 10. თბილისი</p>
+          </div>
+          <div class="social-box">
+            <a href="#"><i class="fab fa-facebook social"></i></a>
+            <a href="#"><i class="fab fa-instagram social"></i></a>
+          </div>
         </div>
-    </section>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
-</body>
+      </div>
+    </footer>
 
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.0-2/js/all.min.js"></script>
+  </body>
 </html>
